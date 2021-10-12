@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import CalendarBoard from "./components/CalendarBoard";
 
 const App = () => (
-  <div>app</div>
+  <div>
+    <CalendarBoard />
+  </div>
 )
 
 ReactDOM.render(<App />, document.getElementById("root"));
