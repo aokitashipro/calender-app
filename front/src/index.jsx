@@ -10,6 +10,7 @@ dayjs.locale("ja");
 const App = () => (
   <div>
     <CalendarBoard />
+    <div>test</div>
   </div>
 )
 
